@@ -1,0 +1,26 @@
+name: FastHitFix
+version: 1.0.0
+main: com.fast.hitfix.FastHitFix
+api-version: '1.21'
+author: Fast
+description: Fix Ghost Hits and Hit Registration
+depend: [ProtocolLib]
+
+commands:
+  hitfix:
+    description: Show plugin info
+    usage: /hitfix
+    aliases: [hf, fix]
+  hitfixreload:
+    description: Reload config
+    usage: /hitfixreload
+    aliases: [hfr]
+    permission: fasthitfix.admin
+
+permissions:
+  fasthitfix.admin:
+    description: Admin permission
+    default: op
+  fasthitfix.bypass:
+    description: Bypass hit fix
+    default: false
