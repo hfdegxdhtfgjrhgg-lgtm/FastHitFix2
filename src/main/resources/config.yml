@@ -1,0 +1,34 @@
+# =========================================================
+# FastHitFix - Configuration
+# =========================================================
+
+# Hit Fix Settings
+hitfix:
+  # Enable hit registration fix
+  fix-hit-registration: true
+  
+  # Enable ghost hit prevention
+  prevent-ghost-hits: true
+  
+  # Enable knockback fix
+  fix-knockback: true
+  
+  # Enable reach fix
+  fix-reach: true
+
+# Combat Settings
+combat:
+  # Max reach distance (blocks)
+  max-reach: 4.0
+  
+  # Min hit delay (ms)
+  min-hit-delay: 100
+  
+  # Reset hit counter after (ms)
+  reset-time: 500
+
+# Messages
+messages:
+  prefix: "&8[&6FastHitFix&8] &r"
+  reloaded: "&a✅ Configuration reloaded!"
+  no-permission: "&cYou don't have permission!"
